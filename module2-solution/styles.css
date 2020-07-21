@@ -1,0 +1,79 @@
+body{
+    background-color: beige;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+header{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 175%;
+    font-family: sans-serif;
+    padding: 10px;
+    margin: 10px;
+}
+.chicken, .beef, .sushi{
+    float: right;
+    border: 1px solid black;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: center;
+    width: 120px;
+    height: 40px;
+}
+.box1, .box2,.box3{
+    background-color: dimgrey;
+    color: black;
+    border: 1px solid black;
+    
+    
+}
+.chicken{
+    background-color: coral;
+
+}
+.beef{
+    background-color: crimson;
+}
+.sushi{
+    background-color: rgb(228, 228, 72);
+}
+p{
+    padding: 10px;
+    clear: both;
+}
+.box1 p, .box2  p, .box3  p{
+    margin: 0px;
+}
+
+
+@media (min-width: 992px){
+    .BOX1, .BOX2, .BOX3{
+        float: left;
+        padding: 10PX;
+        width: 33.33%;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .BOX1, .BOX2{
+        float: left;
+        padding: 10px;
+        width: 50%;
+    } 
+    .BOX3{
+        float: none;
+        clear: both;
+        padding: 10px;
+        width: 100%;
+    }
+}
+@media (max-width: 767px){
+    .BOX1, .BOX2, .BOX3{
+        float: none;
+        clear: both;
+        padding: 10px;
+        width: 100%;
+    }
+}
