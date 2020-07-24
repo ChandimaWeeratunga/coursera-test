@@ -1,0 +1,93 @@
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color:#dac400;
+    font-family: 'Oxygen', sans-serif;
+  }
+  
+  /** HEADER **/
+  #header-nav {
+    background-color: #383632;
+    border-radius: 0;
+    border: 0;
+  }
+  
+  #logo-img {
+    background: url('../images/restaurant-logo_large.png') no-repeat;
+    width: 150px;
+    height: 150px;
+    margin: 10px 15px 10px 0;
+  }
+  
+  .navbar-brand {
+    padding-top: 25px;
+    text-align: right;
+  }
+  
+  .navbar-brand h1 { /* Restaurant name */
+    font-family: 'Lora', serif;
+    color: #f0d910;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-shadow: 3px 3px 3px rgb(150, 1, 1);
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+    
+  }
+  .navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+  }
+.navbar-header{
+    padding: 20px;
+}
+.container{
+    margin-bottom: 5px;
+}
+#nav-list {
+    margin-top: 10px;
+  }
+#nav-list a {
+    color: #f0d910;
+    text-align: center;
+  }
+#nav-list a:hover {
+    text-shadow: 3px 3px 3px ;
+
+  }
+#nav-list a span {
+    font-size: 1.8em;
+  }
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 2px solid #f0d910;
+  }
+  .navbar-header button.navbar-toggle, .navbar-header .icon-bar:hover{
+      box-shadow:3px 3px 3px rgb(150, 1, 1) ;
+  }
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+}
+#collapsable-nav #nav-list hr{
+     width: 60%;
+ }
+#our-menu{
+    color: #383632;
+    font-weight: bolder;
+    text-shadow: 3px 3px 3px rgb(248, 245, 245);
+}
+.row h3{
+    color: #f0d910;
+    font-weight: bold;
+}
+#main-content .row #text{
+    background-color: #383632;
+}
+#main-content .row #text h3{
+    padding-top: 10px;
+}
+#main-content .row #text p{
+    padding: 20px;
+    color: #eeeeed;
+    text-align: justify;
+}
