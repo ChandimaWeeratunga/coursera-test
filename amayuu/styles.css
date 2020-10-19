@@ -1,0 +1,490 @@
+/* -------------------------------------------General start ------------------------------------*/
+*{
+    margin : 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    background: url("img/background.jpg") no-repeat fixed;
+    background-size: cover;
+}
+
+/* Nav Bar start */
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: rgb(58, 14, 14);
+}
+hr{
+    width: 60%;
+    margin: auto;
+}
+p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#logo{
+    height: 40px;
+    width: auto;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Open Sans', sans-serif;
+    width: 70%;
+    list-style: none;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: ivory;
+    letter-spacing: 3px;
+}
+.nav-links li{
+    padding: 10px;
+}
+.nav-links li:hover{
+    border-bottom:2px outset ivory;
+    
+}
+.nav-links li:active{
+    background-color: maroon;
+}
+
+.burger div{
+    width: 15px;
+    height: 2px;
+    margin: 2px;
+    background-color: ivory;
+    transition: all 0.3s ease;
+}
+
+.burger{
+    display: none;
+    cursor: pointer;
+}
+
+/* Nav bar end */
+
+/* ---------------------------------- General end ----------------------------------*/
+/*
+.slider{
+
+    width: 1000px;
+    height: 667px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.slides{
+    width: 300%;
+    height: 667px;
+    display: flex;
+}
+
+.slides input{
+    display: none;
+}
+*/
+/* slider start */
+#slider{
+    overflow: hidden;
+}
+
+#slider figure{
+    position: relative;
+    width: 400%;
+    margin: 0;
+    left: 0;
+    animation: 16s slider infinite;
+}
+
+#slider figure img{
+    float: left;
+    width: 25%;
+    
+}
+/* slider end */
+
+/* Main content start */
+.content{
+    background-color: rgb(0, 0, 0, 0.5);
+    display: block;
+    margin: auto;
+    width: 80%;
+    padding: 20px;
+    padding-top: 0;
+}
+#rightsub, #leftsub,#middlesub{
+    color: rgb(28, 189, 230);
+    text-transform: uppercase;
+    font-size:4vw;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    letter-spacing: 3px;
+}
+#leftsub{
+    text-align: left;
+}
+#rightsub{
+    text-align: right;
+}
+#middlesub{
+    text-align: center;
+}
+.intro{
+    font-weight: lighter;
+    padding: 20px;
+    text-align: center;
+    font-size: 1vm;
+   
+}
+#why{
+    font-family: 'Bebas Neue', cursive;
+    color: ivory;
+    font-weight: lighter;
+    font-size: 4vw;
+    letter-spacing: 3px;
+
+}
+.content br{
+    margin: 10px 0 10px 0;
+}
+.vision, .mission,.find,.story,.contact,.team, .inqr{
+    margin: 20px 0 20px 0;
+}
+
+.content p,i,pre{
+    font-family: 'Open Sans', sans-serif;
+    clear: left;
+    color: ivory;
+    font-size: 1.3vw;
+}
+#tagline{
+    background-color: rgb(80, 174, 206,0.4);
+}
+#tagline h1{
+    opacity: 1;
+    font-family: 'Satisfy', cursive;
+    letter-spacing: 3px;
+    font-weight: lighter;
+    color: ivory;
+    text-align: center;
+    padding: 30px;
+    /*text-shadow:3px 3px 2px gray;*/
+}
+
+/* Main content end */
+
+/* Footer start */
+footer{
+    display: -webkit-flex;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 50px;
+    background-color: rgb(58, 14, 14);
+}
+/*.footer > *{
+    flex: 1 100%;
+}*/
+.footer{
+    display: flex;
+}
+.footer-left{
+    width: 25%;
+}
+.footer-left img{
+    width: 100px;
+    height: auto;
+    padding: 10px;
+}
+.footer-right h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color:rgb(28, 189, 230);
+    letter-spacing: 3.5px;
+    text-transform: uppercase;
+}
+.footer li,p,a{
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 12px;
+    color: ivory;
+    text-decoration: none;
+    
+}
+.footer-right{
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+}
+
+.footer-bottom{
+    width: 100%;
+    text-align: center;
+    font-size: 10px;
+    padding-top: 50px;
+}
+.socials a{
+    background: rgb(58, 14, 14);
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    margin-right: 15px;
+}
+.socials a i{
+    color: ivory;
+    padding: 10px 10px;
+    font-size: 20px;
+}
+/* Footer start */
+
+/* -------------------------ABOUT US START------------------------------------------- */
+.story{
+    margin: 20px 0 20px 0;
+}
+#about-tag h1{
+    opacity: 1;
+    font-family: 'Satisfy', cursive;
+    letter-spacing: 3px;
+    font-weight: lighter;
+    color: ivory;
+    text-align: center;
+    padding: 30px;
+
+}
+.story h2{
+    color: rgb(28, 189, 230);
+    text-transform: uppercase;
+    font-size:4vw;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+}
+
+.story img{
+    position: relative;
+    width: 100px;
+    height: auto;
+    margin: 20px;
+}
+
+#map iframe{
+    display: block;
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+.contact{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.contact #leftsub{
+    display: block;
+    clear: both;
+}
+.team img{
+    position: relative;
+    width: 20%;
+    height: auto;
+    margin: 20px;;
+    border-radius: 50%;
+}
+.team-details{
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+.team-details #details{
+    margin: auto;
+    width: 50%;
+}
+
+/* -----------------------------ABOUT US END ----------------------------------------- */
+
+/* -----------------------------PRODUCTS START ----------------------------------------*/
+.card{
+    position: relative;
+    margin: auto;
+    max-width: 300px;
+    padding-top: 30px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    border: solid ivory;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.card img{
+    max-width: 100px;
+    height: auto;
+}
+.card h3{
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 3px;
+    font-weight: lighter;
+    color:rgb(28, 189, 230);
+    text-align: center;
+    
+}
+#price{
+    font-weight: lighter;
+    color: lightslategray;
+}
+.inqr p{
+    text-align: center;
+}
+/* -----------------------------PRODUCTS END ----------------------------------------*/
+
+.cert{
+    position: relative;
+    margin: auto;
+    max-width: 300px;
+    padding-top: 30px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.cert img{
+    max-width: 100px;
+    height: auto;
+}
+.cert h3{
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 3px;
+    font-weight: lighter;
+    color:rgb(28, 189, 230);
+    text-align: center;
+    
+}
+/* ---------------------------------------Media querries start------------------------- */
+@media screen and (max-width:1024px){
+    .nav-links{
+        width: 60%;  
+    }
+}
+
+@media screen and (max-width:768px){
+    body{
+        overflow-x: hidden;
+    }
+    .nav-links{
+        position: absolute;
+        right: 0px;
+        height: 30%;
+        width: 100%;
+        top: 8vh;
+        background-color:rgb(58, 14, 14);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+    }
+    .nav-links li{
+        opacity: 0;
+    }
+
+    .burger{
+        display: block;
+    }
+
+    #slider{
+        display: none
+    }
+
+    .content p{
+        font-size: 12pt;
+    } 
+    .contact{
+        display: block;
+        width: 100%;
+    }
+    .team-details{
+        position: relative;
+        display: block;
+        width: 100%;
+    }
+    .team-details img{
+        margin: auto;
+        width: 30%;
+        display: block;
+    }
+    .card{
+        border: none;
+    }
+   
+}
+
+@media screen and (max-width: 800px){
+    .footer {
+        display: block;
+        justify-content: center;
+    }
+    .footer-left{
+        width: 100%;
+    }
+    .footer-right{
+        width: 100%;
+        align-items: center;
+        display: block;
+    }
+    .footer-left img{
+        align-items: center;
+    }
+}
+/* ------------------------------ Media querries end --------------------------------- */
+
+.nav-active{
+    transform: translateX(0);
+}
+
+/* ----------------------------------- Keyframes start ---------------------------------- */
+@keyframes navLinkFade{
+    from{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+@keyframes slider{
+    0%{
+        left: 0;
+    }
+    33.3333%{
+        left: -100%;
+    }
+    66.6666%{
+        left: -200%;
+    }
+    100%{
+        left: -300%;
+    }
+}
+/*  ---------------------------------- Keyframes end ----------------------------------------- */
+
+
+
+/*.toggle .line1{
+    transform: rotate(-90deg) translate(-3px,-6px);
+}
+.toggle .line2{
+    opacity: 0;
+    
+}
+.toggle .line3{
+    transform: rotate(90deg) translate(3px,6px);
+    
+}*/
