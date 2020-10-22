@@ -366,11 +366,13 @@ footer{
     
 }
 /* ---------------------------------------Media querries start------------------------- */
+/*
 @media screen and (max-width:1024px){
     .nav-links{
         width: 60%;  
     }
 }
+*/
 
 @media screen and (max-width:425px){
     body{
@@ -423,7 +425,7 @@ footer{
     }
    
 }
-
+/*
 @media screen and (max-width: 800px){
     .footer {
         display: block;
@@ -441,6 +443,8 @@ footer{
         align-items: center;
     }
 }
+
+*/
 /* ------------------------------ Media querries end --------------------------------- */
 
 .nav-active{
